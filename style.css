@@ -23,7 +23,6 @@ nav {
   display: flex;
   color: white;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 #logo {
   display: flex;
@@ -65,6 +64,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  text-align: center;
 }
 section h1 {
   font-size: 5rem;
@@ -81,4 +81,20 @@ button {
   cursor: pointer;
   color: white;
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 888px) {
+  html {
+    font-size: 40%;
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  #logo {
+    justify-content: center;
+    margin: 0 0 2rem 0;
+  }
+  .links {
+    flex: 1 1 100rem;
+  }
 }
