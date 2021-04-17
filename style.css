@@ -12,7 +12,7 @@ html {
 /* Navbar */
 header {
   width: 100%;
-  background-color: #264653;
+  background: #264653;
   height: 10vh;
   padding: 3rem 0;
   display: flex;
@@ -59,12 +59,26 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url("./images/landing-page.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
+    url("./images/landing-page.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
-section h1{
+section h1 {
   font-size: 5rem;
+}
+section h3 {
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+button {
+  padding: 2rem 10rem;
+  background-color: #2a9d8f;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
 }
