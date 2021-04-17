@@ -9,3 +9,45 @@
 html {
   font-size: 62.5%;
 }
+/* Navbar */
+header {
+  width: 100vw;
+  background-color: #264653;
+  padding: 5rem;
+  height: 10vh;
+  display: flex;
+}
+nav {
+  width: 90vw;
+  display: flex;
+  color: white;
+  margin: 0 auto;
+}
+#logo {
+  display: flex;
+  align-items: center;
+  flex: 10 1 40rem;
+}
+h1 {
+  font-size: 3.4rem;
+}
+.links {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  font-size: 2.4rem;
+  list-style: none;
+  margin: 0 1rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
