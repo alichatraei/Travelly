@@ -86,7 +86,7 @@ button {
   color: white;
   font-size: 2rem;
 }
-/* BENTICS SECTION */
+/* BENETICS SECTION */
 .benetics {
   height: 100vh;
   background: linear-gradient(#ccc, transparent),
@@ -113,6 +113,7 @@ button {
 }
 .clouds img {
   animation: imageAnimation 3s infinite alternate ease-in-out;
+  pointer-events: none;
 }
 .benetics-head h2 {
   color: black;
@@ -146,5 +147,8 @@ button {
   }
   .links {
     flex: 1 1 100rem;
+  }
+  .benetics-head {
+    align-items: center;
   }
 }
