@@ -11,7 +11,7 @@ html {
   font-family: "Poppins", sans-serif;
 }
 /* Navbar */
-header {
+.header {
   width: 100%;
   background: #264653;
   height: 10vh;
@@ -86,7 +86,53 @@ button {
   color: white;
   font-size: 2rem;
 }
-
+/* BENTICS SECTION */
+.benetics {
+  height: 100vh;
+  background: linear-gradient(#ccc, transparent),
+    url("./images/new-york-page.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+.benetics-head {
+  width: 90%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.clouds {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.clouds img {
+  animation: imageAnimation 3s infinite alternate ease-in-out;
+}
+.benetics-head h2 {
+  color: black;
+  font-size: 4rem;
+  text-decoration: underline;
+}
+@keyframes imageAnimation {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(10%, -20%);
+  }
+}
+.benetics-head h4 {
+  /* background-color: rgb(77, 77, 77); */
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  color: rgba(0, 0, 0, 0.4);
+}
 @media only screen and (max-width: 888px) {
   html {
     font-size: 40%;
