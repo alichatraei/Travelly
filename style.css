@@ -53,6 +53,9 @@ ul li {
 a {
   text-decoration: none;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* Section */
 #home {
@@ -100,6 +103,7 @@ button {
 .benetics-head {
   width: 90%;
   min-height: 50vh;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -270,6 +274,38 @@ form {
   position: absolute;
   bottom: 5rem;
 }
+
+/* FOOTER */
+
+footer {
+  min-height: 10vh;
+  max-width: 100vw;
+  background-color: #264653;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.copyRightSection {
+  flex: 1 1 40rem;
+  margin: 0 0 0 10rem;
+}
+.copyRightSection h4 {
+  font-size: 3rem;
+  color: white;
+  font-family: "Pattaya", sans-serif;
+  font-weight: normal;
+}
+.socailMedias {
+  flex: 10 1 40rem;
+  margin: 0 10rem 0 0;
+}
+.socailMedias ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 @media only screen and (max-width: 888px) {
   html {
     font-size: 40%;
@@ -308,10 +344,12 @@ form {
   .card {
     margin: 1rem 0;
   }
-  .name label, .phone label{
+  .name label,
+  .phone label {
     flex: 1 1 10rem;
   }
-  .name input, .phone input{
+  .name input,
+  .phone input {
     flex: 1 1 10rem;
   }
 }
