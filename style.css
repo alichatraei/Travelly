@@ -308,4 +308,10 @@ form {
   .card {
     margin: 1rem 0;
   }
+  .name label, .phone label{
+    flex: 1 1 10rem;
+  }
+  .name input, .phone input{
+    flex: 1 1 10rem;
+  }
 }
