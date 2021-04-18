@@ -136,7 +136,68 @@ button {
 }
 
 /* Features */
-
+#feature {
+  min-height: 100vh;
+  width: 100%;
+}
+.feature-head {
+  min-height: 20vh;
+  background-color: #264653;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.feature-head h2 {
+  font-size: 4rem;
+  margin: 0 0 2rem 0;
+}
+.feature-head h4 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+.cards {
+  min-height: 80vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2rem;
+  margin: 0 1rem;
+  flex: 1 1 40rem;
+  box-shadow: 1rem 2rem 4rem #ccc, 1rem 2rem 4rem #ccc;
+  text-align: center;
+}
+.card-image {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  width: 100%;
+  background-color: #264653;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card img {
+  max-height: 10vh;
+}
+.card h4 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.card p {
+  font-size: 1.4rem;
+  padding: 2rem;
+}
 @media only screen and (max-width: 888px) {
   html {
     font-size: 40%;
