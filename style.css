@@ -213,6 +213,27 @@ button {
     flex: 1 1 100rem;
   }
   .benetics-head {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    justify-content: center;
     align-items: center;
+    min-width: 100vw;
+  }
+  .benetics-head h2,
+  h4 {
+    padding: 1rem 2rem;
+  }
+  .features {
+    text-align: center;
+  }
+  .feature-head h2 {
+    font-size: 3.8rem;
+  }
+  .cards {
+    margin: 2rem auto;
+  }
+  .card {
+    margin: 1rem 0;
   }
 }
