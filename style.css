@@ -352,4 +352,9 @@ footer {
   .phone input {
     flex: 1 1 10rem;
   }
+  .copyRightSection ,.socailMedias , .socailMedias ul{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+  }
 }
